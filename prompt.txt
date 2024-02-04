@@ -3,9 +3,7 @@ Generate a SQL query to answer the following question: `{user_question}`
 
 ### PostgreSQL Database Schema
 The query will run on a database with the following schema: 
-```
 
-```
 ### Answer
 Here is the SQL query that answers the question: `{natural language question}` 
 ```sql

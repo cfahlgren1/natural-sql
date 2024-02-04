@@ -2,22 +2,15 @@
 
 NaturalSQL by [ChatDB](https://chatdb.ai) is a series of models with state-of-the-art performance on Text to SQL instructions.
 
-[HuggingFace](https://huggingface.co/cfahlgren1/NaturalSQL-6.7B-v0)
+[HuggingFace](https://huggingface.co/chatdb/natural-sql-7b)
 
-## Introducing NaturalSQL-6.7B-v0.1
+## Introducing NaturalSQL-7B
 #### Percentage of Correct SQL Queries on Novel Schemas
 *Big thanks to the folks at Defog for open sourcing the [SQL-Eval](https://github.com/defog-ai/sql-eval) framework*
 
-![image](https://www.chatdb.ai/_next/image?url=%2Fimages%2Fsql-eval-breakdown.png&w=1920&q=75)
+![image](https://cdn-uploads.huggingface.co/production/uploads/648a374f00f7a3374ee64b99/5ynfoKPzI3_-WasQQt7qR.png)
 
-NaturalSQL-6.7B is the leading model for it's size, benchmarked on SQL-Eval.
-
-#### Model Performance by Category
-
-NaturalSQL-6.7B-v0 matches or outperforms other industry leading models in multiple categories!
-
-
-![image](https://www.chatdb.ai/_next/image?url=%2Fimages%2Fsql-eval-by-category.png&w=2048&q=75)
+NaturalSQL-7B is the leading model for it's size, benchmarked on SQL-Eval.
 
 #### Example
 
@@ -70,9 +63,3 @@ FROM
 ```
 
 NaturalQuery performs really well with subqueries, ratios, and complex questions like above.
-
-The next iteration will focus on:
-
-- JSON
-- Date / Time Functions
-- Complex, Multipart Questions
