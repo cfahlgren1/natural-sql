@@ -62,4 +62,9 @@ FROM
   JOIN customers c ON c.customerid = lm.customerid;
 ```
 
-NaturalQuery performs really well with subqueries, ratios, and complex questions like above.
+NaturalQuery performs really well with subqueries, ratios, and questions like above.
+
+### License
+
+This repo code is licensed under `apache-2.0`, the model license is `CC BY-SA 4.0`.
+
